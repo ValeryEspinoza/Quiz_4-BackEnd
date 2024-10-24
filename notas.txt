@@ -1,0 +1,13 @@
+ py --version
+py -m ensurepip --upgrade
+py -m pip install Django==5.1.2
+py -m django --version
+py -m django startproject [nombre_proyecto]
+py manage.py startapp [nombre]
+pip install  djangorestframework
+pip install mysqlclient
+py -m pip install mysqlclient //A mi solo me funciona con este
+
+py manage.py makemigrations
+py manage.py migrate
+py manage.py runserver
